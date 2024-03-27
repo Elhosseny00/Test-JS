@@ -917,39 +917,60 @@
 // ################
 //الإسبوع الخامس عشر
 //From 111 To 114
-let fonts = document.getElementById("fonts");
-fonts.addEventListener("change", () => {
-  let selectedFont = fonts.value;
-  document.body.style.fontFamily = selectedFont;
-  localStorage.setItem("savedFont", selectedFont);
-});
-let savedFont = localStorage.getItem("savedFont");
-if (savedFont) {
-  document.body.style.fontFamily = savedFont;
-  fonts.value = savedFont;
-}
+// let fonts = document.getElementById("fonts");
+// fonts.addEventListener("change", () => {
+//   let selectedFont = fonts.value;
+//   document.body.style.fontFamily = selectedFont;
+//   localStorage.setItem("savedFont", selectedFont);
+// });
+// let savedFont = localStorage.getItem("savedFont");
+// if (savedFont) {
+//   document.body.style.fontFamily = savedFont;
+//   fonts.value = savedFont;
+// }
 
-let colors = document.getElementById("colors");
-colors.addEventListener("change", () => {
-  let selectedColor = colors.value;
-  document.body.style.color = selectedColor;
-  localStorage.setItem("savedColor", selectedColor);
-});
+// let colors = document.getElementById("colors");
+// colors.addEventListener("change", () => {
+//   let selectedColor = colors.value;
+//   document.body.style.color = selectedColor;
+//   localStorage.setItem("savedColor", selectedColor);
+// });
 
-let savedColor = localStorage.getItem("savedColor");
-if (savedColor) {
-  document.body.style.color = savedColor;
-  colors.value = savedColor;
-}
-let fontsize = document.getElementById("fontsize");
-fontsize.addEventListener("change", () => {
-  let selectedSize = fontsize.value;
-  document.body.style.fontSize = selectedSize;
-  localStorage.setItem("savedSize", selectedSize);
-});
-let savedSize = localStorage.getItem("savedSize");
-if (savedSize) {
-  document.body.style.fontSize = savedSize;
-  fontsize.value = savedSize;
-}
+// let savedColor = localStorage.getItem("savedColor");
+// if (savedColor) {
+//   document.body.style.color = savedColor;
+//   colors.value = savedColor;
+// }
+// let fontsize = document.getElementById("fontsize");
+// fontsize.addEventListener("change", () => {
+//   let selectedSize = fontsize.value;
+//   document.body.style.fontSize = selectedSize;
+//   localStorage.setItem("savedSize", selectedSize);
+// });
+// let savedSize = localStorage.getItem("savedSize");
+// if (savedSize) {
+//   document.body.style.fontSize = savedSize;
+//   fontsize.value = savedSize;
+// }
+
+// ################
+
+// ################
+//الإسبوع السادس عشر
+//From 115 To 122
+// let myNumbers = [1, 2, 3, 4, 5];
+// let [a, b, c, d, e] = myNumbers;
+// console.log(a * e); //5
+// let mySkills = ["HTML", "CSS", "JS", ["PHP", "Python", ["Django", "Laravel"]]];
+// // let newArr = mySkills.flat(Infinity);
+// // let [a, b, c, d, e, f, g] = newArr;
+// // console.log(`My Skills: ${a}, ${b}, ${c}, ${d}, ${e}, ${f}, ${g}`);
+// // Other Solution By Destrutuing
+// let [a, b, c, [d, e, [f, g]]] = mySkills;
+// console.log(`My Skills: ${a}, ${b}, ${c}, ${d}, ${e}, ${f}, ${g}`);
+
+arr1 = ["Ahemd", "Sameh", "Sayed"];
+arr2 = ["Mohamed", "Gamal", "Amir"];
+arr3 = ["Hayyham", "Shady", "Mahmoud"];
+
 // ################
